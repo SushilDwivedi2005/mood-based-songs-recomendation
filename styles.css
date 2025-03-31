@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1DB954, #191414);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Dropdown & Button */
+select, button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+select {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+button {
+    background: #1DB954;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #17a74c;
+}
+
+/* Song List */
+#song-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Song Item Card */
+.song-item {
+    width: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.song-item:hover {
+    transform: scale(1.05);
+}
+
+.song-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Spotify Link */
+.song-item a {
+    display: block;
+    text-decoration: none;
+    color: #1DB954;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.song-item a:hover {
+    text-decoration: underline;
+}
